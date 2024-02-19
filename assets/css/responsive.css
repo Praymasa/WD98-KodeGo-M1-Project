@@ -1,0 +1,178 @@
+@media screen and (min-width: 180px) {
+  #logo {
+    width: 15vw;
+  }
+
+  #navigation span {
+    width: 1em;
+    height: 1em;
+  }
+
+  .carousel-item img {
+    width: 100%;
+  }
+
+  #wings .menu-card img {
+    height: 200px;
+  }
+
+  #burgers .disappearing {
+    visibility: hidden;
+  }
+
+  #burgers .word-break {
+    display: block;
+  }
+
+  #nachos .nachos-image {
+    visibility: hidden;
+  }
+
+  #catering-form form .inq-form {
+    display: block;
+  }
+
+  #about .hidden-div {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  #about .hidden-lg-screen {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width:294px) {
+  #burger .word-break {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  #logo {
+    width: 15vw;
+  }
+
+  #navigation span {
+    width: 1.5em;
+    height: 1.5em;
+  }
+
+  #home .welcome-page .logo {
+    width: 80%;
+  }
+
+  .carousel-item img {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  * p {
+    text-align: center;
+  }
+
+  #logo {
+    width: 10vw;
+  }
+
+  #home .welcome-page {
+    margin: 8rem 0;
+  }
+
+  #nachos .nachos-image {
+    visibility: visible;
+  }
+
+  #catering-form form .inq-form {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #logo {
+    width: 3vw;
+  }
+
+  #home .welcome-page .logo {
+    width: 50%;
+  }
+
+  #wings .menu-card img {
+    height: 100%;
+  }
+
+  #nachos .hover-container {
+    position: relative;
+  }
+
+  #nachos .hover-container .text {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 1s ease;
+    backface-visibility: hidden;
+  }
+
+  #nachos .hover-container .image-hover {
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(156, 156, 156);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  #nachos .hover-container:hover .text {
+    opacity: .3;
+  }
+
+  #nachos .hover-container:hover .image-hover {
+    opacity: 1;
+  }
+
+  #about .hidden-div {
+    visibility: visible;
+    position: relative;
+  }
+
+  #about .hidden-lg-screen {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width:1400px) {
+  #wings {
+    margin: 25px;
+    background-image: url(../Images/Bg-chix-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .burgers {
+    margin-left: 25px;
+    background-image: url(../Images/burger-images-12.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .fries {
+    margin-right: 25px;
+    background-image: url(../Images/fries_bg-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width:1820px) {
+  #wings small {
+    font-size: 16px;
+
+  }
+}
