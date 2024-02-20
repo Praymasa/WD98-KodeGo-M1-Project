@@ -208,6 +208,13 @@ footer {
 #combos .combo-card {
     border-radius: 0;
     box-shadow: 3px 3px 5px rgb(63, 63, 63);
+    transition: .2s;
+}
+
+#wings .menu-card:hover,
+#combos .combo-card:hover {
+    box-shadow: none;
+    border: 1px solid var(--darker-green);
 }
 
 #wings .menu-card img {
