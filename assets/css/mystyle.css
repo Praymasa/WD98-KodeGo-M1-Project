@@ -200,8 +200,8 @@ footer {
 }
 
 #accredited img {
-    width: 150px;
-    height: 150px;
+    width: 100%;
+    object-fit: cover;
 }
 
 #wings .menu-card,
